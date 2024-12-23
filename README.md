@@ -193,6 +193,14 @@ int main( void ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/math-base/special/atan`][@stdlib/math/base/special/atan]</span><span class="delimiter">: </span><span class="description">compute the arctangent of a double-precision floating-point number.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/atanh`][@stdlib/math/base/special/atanh]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic arctangent of a double-precision floating-point number.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/acosf`][@stdlib/math/base/special/acosf]</span><span class="delimiter">: </span><span class="description">compute the arccosine of a single-precision floating-point number.</span>
+
 </section>
 
 <!-- /.related -->
@@ -263,6 +271,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/math-base-special-atanf/blob/main/branches.md
 
 [arctangent]: https://en.wikipedia.org/wiki/Inverse_trigonometric_functions
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/atan]: https://github.com/stdlib-js/math-base-special-atan
+
+[@stdlib/math/base/special/atanh]: https://github.com/stdlib-js/math-base-special-atanh
+
+[@stdlib/math/base/special/acosf]: https://github.com/stdlib-js/math-base-special-acosf
+
+<!-- </related-links> -->
 
 </section>
 
