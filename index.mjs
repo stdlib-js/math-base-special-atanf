@@ -1,4 +1,0 @@
-// Copyright (c) 2026 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import t from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nanf@v0.2.2-esm/index.mjs";import s from"https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-to-float32@v0.2.2-esm/index.mjs";import n from"https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-half-pi@v0.1.0-esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-fourth-pi@v0.1.0-esm/index.mjs";function i(i){var r,o,m;return t(i)||0===i?i:((i=s(i))<0?(r=-1,i=-i):r=1,i>2.414213562373095?(o=n,i=-s(1/i)):i>.414213562373095?(o=e,i=s(s(i-1)/s(i+1))):o=0,m=s(i*i),o=s(o+s(s(function(t){return 0===t?-.3333294987678528:s(-.3333294987678528+s(t*s(.19977711141109467+s(t*s(-.13877685368061066+s(.08053744584321976*t))))))}(m))*s(m*i)+i)),r<0&&(o=-o),o)}export{i as default};
-//# sourceMappingURL=index.mjs.map
